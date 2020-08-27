@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccccc;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    height: 80px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #6b6c68;
+    line-height: 80px;
+}
+
+.hero {
+    background-image: url(/imgs/template_1/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 100vh;
+    border: 1px solid transparent; /*retira o espaço entre html e o hero*/
+}
+
+.hero nav ul{
+    text-align: right;
+}
+
+.hero nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid white;
+    margin-right: 14px;
+}
+
+.hero nav li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.section-content {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto; /*Para não sofrer dano do float e deixar os card dentro do elemento pai*/
+}
+
+.card {
+    width: 32%;
+    float: left; /*Vai empurrar os card para esquerda fazendo ficarem em uma linha*/
+    box-sizing: border-box;
+}
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block; /*Tira o espaço que existe ao redor da img*/
+}
+
+.card p {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    margin: 0;
+    padding: 15px;
+}

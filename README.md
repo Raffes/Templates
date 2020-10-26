@@ -1,16 +1,22 @@
 # Templates
 
 Template_1 {
-Responsivo: Sim
-Bootstrap: Não
+    Responsivo: Não; 
+    Bootstrap: Não; 
 }
 
 Template_2 {
-Responsivo: Não
-Bootstrap: Não
+    Responsivo: Não; 
+    Bootstrap: Não; 
 }
 
 Template_3 {
-Responsivo: Não por completo
-Bootstrap: Não
+    Responsivo: Não; 
+    Bootstrap: Não; 
+}
+
+Template_4 {
+    Responsivo: Sim;
+    Bootstrap: Não;
+    Formato: Mobile First;
 }

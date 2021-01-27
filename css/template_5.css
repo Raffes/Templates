@@ -1,0 +1,7 @@
+.mainImageTop {
+    /*imagem retirada: https://www.deviantart.com/yuumei/art/Grow-Again-866491131
+    * Artista: yuumei*/
+    background: url('/imgs/template_5/grow_again_by_yuumei_debvwu3-pre.jpg') center center no-repeat;
+    background-size: cover;
+    height: 15em;
+}

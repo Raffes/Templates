@@ -20,3 +20,8 @@ Template_4 {
     Bootstrap: Não;
     Formato: Mobile First;
 }
+
+Template_4 {
+    Responsivo: Sim;
+    Bootstrap: Sim;
+}
